@@ -1,5 +1,6 @@
 // Crea una constante PREPARATION_MINUTES_PER_INGREDIENT con valor 3.
 
+import { SocketAddress } from "net";
 import { removeAllListeners } from "process";
 
 // Crea una constante EXPECTED_MINUTES_IN_OVEN con valor 25.
@@ -24,3 +25,16 @@ export function preparationTimeInMinutes(numberOfIngredients) {
 export function totalTimeInMinutes(numberOfIngredients, actualMinutesInOven) {
   return preparationTimeInMinutes(numberOfIngredients) + actualMinutesInOven;
 }
+
+// file.js
+export const MY_VALUE = 10;
+
+export function add(num1, num2) {
+  return num1 + num2;
+}
+
+// file.spec.js
+import { MY_VALUE, add } from './file';
+
+add(MY_VALUE, 5);
+// => 15
