@@ -94,3 +94,12 @@ export function canFreePrisoner(
 ) {
   throw new Error('Remove this line and implement the function');
 }
+
+export function canFreePrisoner(
+  knightIsAwake,
+  archerIsAwake,
+  prisonerIsAwake,
+  petDogIsPresent,
+) {
+  throw new Error('Remove this line and implement the function');
+}
