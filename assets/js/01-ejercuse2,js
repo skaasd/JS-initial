@@ -1,11 +1,15 @@
+let verificar = document.querySelector("#checkAnswers");
 
-let verificar = documnet.getElementById("#checkAnswers");
+verificar.addEventListener("click", () => {
+  let input1 = document.querySelector("#input1").value;
+  let input2 = document.querySelector("#input2").value;
+  let input3 = document.querySelector("#input3").value;
 
+  let suma = Number(input1) + Number(input2) + Number(input3);
 
-verificar.addEventListener("click", ()=>{
-
-let input1 = vedocumnet.getElementById("#input1");
-let input2 = documnet.getElementById("#input2");
-let input3 = documnet.getElementById("#input3");
-
-})
+  if (suma > 10) {
+    document.querySelector("#result").innerHTML = "Llevas muchos stickers!";
+  } else {
+    document.querySelector("#result").innerHTML = `vas bien, llevas ${suma}`;
+  }
+});
