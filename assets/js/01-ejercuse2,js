@@ -1,0 +1,11 @@
+
+let verificar = documnet.getElementById("#checkAnswers");
+
+
+verificar.addEventListener("click", ()=>{
+
+let input1 = vedocumnet.getElementById("#input1");
+let input2 = documnet.getElementById("#input2");
+let input3 = documnet.getElementById("#input3");
+
+})
