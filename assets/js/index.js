@@ -47,3 +47,12 @@ imagen.addEventListener("click", () => {
 //     toggleBorde();
 //   }
 // });
+
+
+// let suma = function(a, b){
+// return a + b
+// }
+
+
+const suma = ()=>{ suma(2,3)
+}

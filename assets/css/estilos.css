@@ -67,7 +67,7 @@ body {
     border: solid 1px;
 } */
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -90,4 +90,31 @@ body {
   flex-direction: column;
   align-items: center;
 }
+ */
 
+.content {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black
+}
+.tamaño {
+  height: 200px;
+  width: 200px;
+}
+#rojo {
+  background-color: red;
+}
+
+#azul {
+  background-color: blue;
+}
+
+#amarillo {
+  background-color: yellow;
+}
+
+#verde {
+  background-color: green;
+}
