@@ -29,9 +29,10 @@
 // // al hacer clic, alterna entre verde y amarillo
 // ele.addEventListener("click", () => pintar("green", "yellow"));
 
-const cambiar_color = (id) => {
+
+  const cambiar_color = (id) => {
   const elemento = document.getElementById(id);
-  const colorOriginal = elemento.style.backgroundColor;
+  const colorOriginal = getComputedStyle(elemento).backgroundColor;
   elemento.dataset.original = colorOriginal;
 
   elemento.addEventListener("click", () => {
@@ -43,6 +44,6 @@ const cambiar_color = (id) => {
   });
 };
 
-const ids = ["rojo", "azul", "amarillo", "verde"];
+const ids = ["ele1", "ele2", "ele3", "ele4"];
 
 ids.forEach(cambiar_color);

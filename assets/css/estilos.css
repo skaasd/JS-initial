@@ -97,24 +97,37 @@ body {
   padding-bottom: 3rem;
   display: flex;
   justify-content: space-around;
-  border: 1px solid black
+  border: 1px solid black;
 }
 .tamaño {
   height: 200px;
   width: 200px;
 }
-#rojo {
+#ele1 {
   background-color: red;
 }
 
-#azul {
+#ele2 {
   background-color: blue;
 }
 
-#amarillo {
+#ele3 {
   background-color: yellow;
 }
 
-#verde {
+#ele4 {
   background-color: green;
+}
+
+#key {
+  width: 200px;
+  height: 200px;
+  background: lightgray;
+  margin: 10px;
+}
+.cuadro {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
 }
